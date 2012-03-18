@@ -1,5 +1,6 @@
-#http://en.wikipedia.org/wiki/Miscellaneous_Symbols
-# • ★ ☁ ☢ ☠ ⚠
+# http://en.wikipedia.org/wiki/Miscellaneous_Symbols
+# http://en.wikipedia.org/wiki/Dingbat
+# • ★ ☁ ☢ ☠ ⚠ ❬ ❭ ❮ ❯ ❰ ❱ ❲ ❳ ❴ ❵
 local start_character="%(!.%{$fg_bold[red]%}★.%{$fg_bold[cyan]%}★)%{$reset_color%}"
 local end_character="%(!.%{$fg_bold[red]%}❯.%{$fg_bold[cyan]%}❯)%{$reset_color%}"
 local return_code="%(?..%{$fg[red]%}%? ↵%{$reset_color%})"
