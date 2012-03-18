@@ -37,7 +37,8 @@ source $ZSH/oh-my-zsh.sh
 source "$HOME/.dotfiles/cabeca.zsh-theme"
 
 bindkey '\e.' insert-last-word
-bindkey -s 'M^s' "tab ssh -A suporte.ist.utl.pt\n"
+bindkey -s '^s^s' "tab ssh -A suporte.ist.utl.pt\n"
+bindkey -s '^s^b' "tab ssh -A cabeca.ist.utl.pt\n"
 
 alias tssh='tab ssh -A'
 
