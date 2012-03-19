@@ -58,15 +58,16 @@ case $PLATFORM in
 
 
   [[ -s "/Users/cabeca/.rvm/scripts/rvm" ]] && source "/Users/cabeca/.rvm/scripts/rvm"  # This loads RVM into a shell session.
+
+  alias sudosu='sudo su -m'
+
   ;;
   'Linux')
   # Customize to your needs...
   source "/home/cabeca/.dotfiles/cabeca.zsh-theme"
 
   bindkey '\e.' insert-last-word
-  bindkey -s '^s^s' "tab ssh -A suporte.ist.utl.pt\n"
-  bindkey -s '^s^b' "tab ssh -A cabeca.ist.utl.pt\n"
 
-  alias tssh='tab ssh -A'
+  alias sudosu='sudo su -m -c "ZDOTDIR=/home/cabeca zsh"'
   ;;
 esac
