@@ -71,3 +71,5 @@ case $PLATFORM in
   alias sudosu='sudo su -m -c "ZDOTDIR=/home/cabeca zsh"'
   ;;
 esac
+
+LANGUAGE="en_US.UTF-8"
