@@ -73,3 +73,5 @@ case $PLATFORM in
 esac
 
 LANGUAGE="en_US.UTF-8"
+
+alias knife=’nocorrect knife’
